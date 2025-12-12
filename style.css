@@ -1,0 +1,184 @@
+#header {
+       border: 2px;
+       padding: 8px;
+       display: block;
+       margin: 0 auto;
+      text-align: center;
+     
+      
+}
+#header img {
+        max-width: 200px; 
+        height: auto;
+        margin-bottom: 20px; 
+}
+
+#main {
+    background-color: #fefbf1;
+    border-top: 1px solid #f5c46b;
+    color: #004d4d;
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    text-align: center; 
+    align-items: center; 
+}
+
+.titolo {
+        color: #3a3a3a;
+        font-family: 'Merriweather', serif;
+        font-weight: 700; /* grassetto */
+        text-align: center;
+        margin-bottom: 1rem;
+}
+.paragrafo1 {
+         text-align: left; 
+         margin: 0 auto;
+         margin-bottom: 1rem; 
+         width: 35%;
+} 
+.mainfoto {
+        display: block; 
+        margin: 0 auto;
+        width: 50%;
+        border-radius: 12px;
+        max-height:600px;
+}
+.paragrafo2 {
+    color: #999;
+    text-align: center;
+    font-size: italic;
+    font-size: 16px;
+    font-family: Georgia, serif;
+}
+
+.featured {
+    width: 50%;        
+    margin: 0 auto;    
+    margin-top: 1rem;
+    text-align: left;  
+    border-left: 3px solid #e67e22; 
+    padding-left: 10px;
+    font-family: Georgia, serif;
+}
+
+.featured-title {
+    color: #c55f29;    
+    font-weight: bold;
+    margin: 0;
+}
+
+.featured-link {
+    color: #0a5e63;    
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.section-title {
+    width: 50%;
+    text-align: left;
+    margin: 50px auto;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 1px solid #d6eaea;
+    padding-bottom: 16px;
+  
+}
+
+.sezione-ingredienti {
+    width:50%; 
+    margin: 0 auto; 
+}
+
+.ingredienti-sottotitolo {
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: #4B4B4B;
+    font-size: 16px;
+}
+
+ol li {
+    font-weight:bold;
+}
+
+.metodo {
+   width: 50%;
+   margin: 0 auto;
+}
+
+
+.read  {
+     font-family: Georgia, serif;
+     font-size: 14px;  
+     text-align: left;
+}
+
+.featured-link2 {
+    color: #0a5e63;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+    border: 2px solid red;
+    margin: 0; 
+    padding: 8px;
+}
+
+#header{
+    border: 2px solid blue;
+    padding: 8px;
+   /* text-align: center;  mi centra l'immagine 
+
+}
+
+.nav {
+    background-color: bisque;
+    border-top: solid 2px orange;
+    padding: 2px;
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#header img {
+      width: 150px;
+      display: block; /* default occupa 100% della larghezza 
+      margin: auto;   /* equidistante destra sinistra verso la posizione del elemento */
+ 
